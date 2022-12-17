@@ -1,0 +1,64 @@
+:root {
+  --background: linear-gradient(to bottom right, pink, red);
+}
+
+header {
+  background-image: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+}
+.logo-container {
+  box-shadow: 3px 3px gainsboro;
+  border-radius: 50%; 
+}
+.logo-container img {
+  border-radius: 50%;
+  height: 150px;
+  width: 170px;
+}
+header h1 {
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 2px;
+}
+.main-content {
+  display:flex;
+  justify-content: space-between;
+}
+aside {
+  height: 600px;
+  margin: 100px;
+  
+}
+article {
+  height: 600px;
+  margin: 100px;
+}
+article + h1 {
+  font-size: 2em;
+}
+.main-content img {
+  height: 600px;
+  width: 450px;
+}
+.content {
+  line-height: 1.5;
+  font-size: 20px;
+}
+footer {
+  background-image: var(--background);
+  height: auto;
+}
+footer img {
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: -5px;
+  padding: 1.5px;
+}
+footer h1 {
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
